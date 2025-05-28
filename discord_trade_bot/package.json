@@ -1,0 +1,18 @@
+{
+  "name": "discord_trade_bot",
+  "version": "1.0.0",
+  "description": "This bot is designed to log trades, sales, access grants, and role assignments in a Discord server. It uses slash commands to initiate actions and logs them in a designated channel with a professional embed format, pinging a specified role or user for review.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
